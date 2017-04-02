@@ -37,4 +37,3 @@ Lanyon is developed on and hosted with GitHub. Head to the <a href="https://gith
 
 Thanks!
 <hr style="height:1px;border:none;color:#333;background-color:#333;" />
-
