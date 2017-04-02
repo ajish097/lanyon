@@ -17,7 +17,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
 
 ### Lanyon feature
-***
+
 In addition to the features of Poole, Lanyon adds the following:
 
 * Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
@@ -36,4 +36,4 @@ Lanyon is by preference a forward-thinking project. In addition to the latest ve
 Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
----
+***
