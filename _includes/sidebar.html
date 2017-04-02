@@ -3,13 +3,13 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
+<!--<div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
-  </div>
+  </div>-->
 
   <nav class="sidebar-nav">
-   <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> -->
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> 
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -24,18 +24,20 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
+   <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> 
+    
+   <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> 
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     
-     <div class="sidebar-nav-item">
+    <!-- <div class="sidebar-nav-item">
     <a href="{{ site.baseurl }}">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.mindviewinc.com/About/Bruce.php" target="_blank">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.mindviewinc.com" target="_blank">Mindview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="atom.xml" target="_blank">RSS</a><br/>
     <a href="http://www.AtomicScala.com" target="_blank">Atomic Scala</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.WinterTechForum.com" target="_blank">WTF</a><br/>
     Search: <form onsubmit="search_google()" ><input type="text" id="google-search"></form> 
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     
-    </div>
+    </div> -->
     
     {% for post in site.posts %}
       <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a>
