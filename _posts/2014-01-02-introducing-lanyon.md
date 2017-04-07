@@ -1,6 +1,6 @@
 ---
 layout: post
-title: THE MAX LINES
+title: THE MAX LINES [MAXLN]
 link: http://www.spoj.com/problems/MAXLN/
 ---
 

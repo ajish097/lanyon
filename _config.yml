@@ -7,8 +7,8 @@ permalink:           pretty
 # Setup
 title:               A PROGRAMMER'S DILEMMA
 tagline:             'TECH BLOG'
-description:         'Wanna say HI? Drop in a <a href="http://ajish097@gmail.com/">message</a>.'
-url:                 http://lanyon.getpoole.com
+description:         'Wanna say HI ? Drop in a message at <a href="https://accounts.google.com/Login?hl=EN">ajish097@gmail.com</a>'
+#url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 gems: [jekyll-paginate]
