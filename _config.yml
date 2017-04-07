@@ -7,10 +7,12 @@ permalink:           pretty
 # Setup
 title:               A PROGRAMMER'S DILEMMA
 tagline:             'TECH BLOG'
-description:         'Wanna say "HI". Drop in a <a href="ajish097@gmail.com">mail</a>.'
+description:         'Wanna say HI? Drop in a <a href="http://ajish097@gmail.com/">message</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
+gems: [jekyll-paginate]
+#      -jekyll-gist
 
 # About/contact
 author:
