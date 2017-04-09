@@ -9,7 +9,7 @@ This is an interesting problem which can be sovled with the help of some element
 Explanation coming soon!!
 
 <script src="https://gist.github.com/ajish097/bac1fcb5e29b441eb6a6ef06ebf3275f.js"></script>
-I have used cout and cin beacuse they are slower compared to printf and scanf.
+I have not used cout and cin beacuse they are slower compared to printf and scanf.
 
 Thanks!
 <hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
