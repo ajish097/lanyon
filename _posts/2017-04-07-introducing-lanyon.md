@@ -4,7 +4,7 @@ title: THE MAX LINES [MAXLN]
 link: http://www.spoj.com/problems/MAXLN/
 ---
 
-This is an interesting problem which can be sovled with the help of some elementary level calculas. The whole idea is to use the concept of maximizing a function.
+This is an interesting problem which can be sovled with the help of some elementary level calculus. The whole idea is to use the concept of maximizing a function.
 
 Explanation coming soon!!
 
