@@ -37,7 +37,7 @@ Differentiating $$\large s$$ w.r.t to $$\large x$$
 
 $$\frac{ds}{dx} = -2x + 1$$
 
-Equating  $$\frac{ds}{dx}$$  to $$\large 0$$ to get the critical points.
+Equating  $$\frac{ds}{dx}$$ = $$\large 0$$ to get the critical points.
 
 $$-2x + 1 = 0$$
 
