@@ -43,11 +43,11 @@ $$-2x + 1 = 0$$
 
 $$x =\frac {1}{2}$$
 
-Differentiating once again to check it the critical point is maximum or minimum,
+Differentiating once again to check if the critical point gives a local maximum or minimum,
 
 $$\frac{d^2s}{dx^2} = -2 \tag {5}$$
 
-we know that if double differentiating a function at critical point gives negative value then the given function has local maximum at the critical point.
+we know that if double differentiation of a function at critical point gives negative value then the given function has local maximum at the critical point.
 
 From (3) we know that $$BC = \large 2r$$ and by putting the critical point from (5) in (4) 
 
@@ -57,7 +57,7 @@ $$\large s = -{0.5}^2 + 0.5 + 4{r^2} $$
 
 $$\large s = 4{r^2} + 0.25\tag {6}$$
 
-With this formula we can now finally convert this into code.
+With this formula we can now finally convert the derived formula into code.
 
 <script src="https://gist.github.com/ajish097/bac1fcb5e29b441eb6a6ef06ebf3275f.js"></script>
 `NOTE : I have not used cout and cin because they are slower compared to printf and scanf.`
