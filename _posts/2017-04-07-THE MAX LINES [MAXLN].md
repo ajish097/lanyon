@@ -45,7 +45,7 @@ $$x =\frac {1}{2}$$
 
 Differentiating once again to check it the critical point is maximum or minimum,
 
-$$\frac{ds^2}{dx^2} = -2 \tag {5}$$
+$$\frac{d^2s}{dx^2} = -2 \tag {5}$$
 
 we know that if double differentiating a function at critical point gives negative value then the given function has local maximum at the critical point.
 
