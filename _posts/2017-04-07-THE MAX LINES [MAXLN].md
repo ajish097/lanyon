@@ -5,7 +5,7 @@ link: http://www.spoj.com/problems/MAXLN/
 ---
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
-This is an interesting problem which can be sovled with the help of some elementary level calculus. The whole idea is to use the concept of maximizing a function.
+This is an interesting problem which can be solved with the help of some elementary level calculus. The whole idea is to use the concept of maximizing a function.
 
 From [thales theorem](https://en.wikipedia.org/wiki/Thales%27_theorem) we know that the  $$\angle CAB$$ is right angle. 
 
