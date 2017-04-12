@@ -60,7 +60,7 @@ $$\large s = 4{r^2} + 0.25\tag {6}$$
 With this formula we can now finally convert this into code.
 
 <script src="https://gist.github.com/ajish097/bac1fcb5e29b441eb6a6ef06ebf3275f.js"></script>
-`NOTE : I have not used cout and cin beacuse they are slower compared to printf and scanf.`
+`NOTE : I have not used cout and cin because they are slower compared to printf and scanf.`
 
 Happy coding!!
 <hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
