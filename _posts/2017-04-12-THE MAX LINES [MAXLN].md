@@ -7,7 +7,7 @@ link: http://www.spoj.com/problems/MAXLN/
 
 This is an interesting problem which can be solved with the help of some elementary level calculus. The whole idea is to use the concept of maximizing a function.
 
-From [thales theorem](https://en.wikipedia.org/wiki/Thales%27_theorem) we know that the  $$\angle CAB$$ is right angle. 
+From [Thales theorem](https://en.wikipedia.org/wiki/Thales%27_theorem) we know that the  $$\angle CAB$$ is right angle. 
 
 By [Pythagoras's theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem),
 
