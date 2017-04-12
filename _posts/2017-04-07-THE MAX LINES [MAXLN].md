@@ -31,7 +31,7 @@ $$s = -AC^2 + AC + BC^2 \tag{4}$$
 
 Let $$AC = \large x$$ and as $$BC^2$$ remains constant, let us replace it with $$\large c$$.
 
-$$s = -x^2 + x + BC^2$$
+$$s = -x^2 + x + c$$
 
 Differentiating $$\large s$$ w.r.t to $$\large x$$
 
