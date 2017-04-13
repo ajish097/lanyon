@@ -47,7 +47,7 @@ Differentiating once again to check if the critical point gives a local maximum 
 
 $$\frac{d^2s}{dx^2} = -2 \tag {5}$$
 
-we know that if double differentiation of a function at critical point gives negative value then the given function has local maximum at the critical point.
+We know that if double differentiation of a function at critical point gives negative value then the given function has local maximum at that critical point.
 
 From (3) we know that $$BC = \large 2r$$ and by putting the critical point from (5) in (4) 
 
