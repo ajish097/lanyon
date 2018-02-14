@@ -127,6 +127,7 @@ The complete solution in C++ is given below
 Or you could use python which can handle large numbers easily. 
 
 ```python
+#author - Ajish
 from sys import stdin as inp  
 for i in range(int(inp.readline())):
   num = int(inp.readline())
