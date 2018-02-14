@@ -92,3 +92,48 @@ The complete solution in C++ is given below
 <script src="https://gist.github.com/ajish097/c0ee30b066d3f9d5762bed04e9cc8945.js"></script>
 
 <hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
+
+## [Baga and Prime Numbers](https://www.codechef.com/CMRC2018/problems/BAGAPRIM)
+
+[Author - Ajish](https://github.com/ajish097)
+
+PROBLEM: Given l and r. Print the number of prime numbers between them.
+
+SOLUTION: The naive approach would be to calculate if each number is prime by dividing it by [2 to sqrt(number)] and checking if there are more than factor of that number.
+
+Let's optimize it by using an algorithm known as [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes). 
+Let's initilize an array of size 10^6 as 0. The idea is to eliminate all the factors of every number from 2-sqrt(10^6) by making index of each factor as 1 in the array. Please refer to this links for more info [link1](https://www.youtube.com/watch?v=eKp56OLhoQs) [link2](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+
+Now, we can iterate from l-r and check if the array value is 0. If it is the case, we can say that the number is prime.
+
+The complete solution in C++ is given below
+
+<script src="https://gist.github.com/ajish097/9ba830e9254e319b99878306d032f5f8.js"></script>
+
+<hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
+
+## [Treasure Hunt](https://www.codechef.com/CMRC2018/problems/THC1)
+
+[Author - Ajish](https://github.com/ajish097)
+
+PROBLEM: Print YES if num divisible by 8 else print NO.
+
+SOLUTION: The problem in this question is the inability of C++ to handle large numbers. Therefore, we can use divisibility of 8 which states that a number if divisible by 8 if the last 3 digits are divisible by 8.
+
+The complete solution in C++ is given below
+
+<script src="https://gist.github.com/ajish097/f93b2e0241245d0528a9d4ed459a4609.js"></script>
+
+Or you could use python which can handle large numbers easily. 
+
+```python
+from sys import stdin as inp  
+for i in range(int(inp.readline())):
+  num = int(inp.readline())
+  if(num%8==0):
+    print("YES")
+  else:
+    print("NO")
+```
+
+<hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
