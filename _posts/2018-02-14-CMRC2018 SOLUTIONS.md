@@ -51,7 +51,7 @@ The complete solution in C++ is given below
 
 PROBLEM: Given N positive integers, print the product of all the numbers Modulo 10^9+7.
 
-SOLUTION: Let us first understant why a naive solution might not work. 
+SOLUTION: Let us first understand why a naive solution might not work. 
 We might be tempted to simply multiply all the numbers and then finally compute the modulo. i.e
 
 // let's assume the N positive integers are stored in array inp[], and mod stores 10^9+7;
