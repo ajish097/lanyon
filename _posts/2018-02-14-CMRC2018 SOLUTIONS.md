@@ -138,3 +138,18 @@ for i in range(int(inp.readline())):
 ```
 
 <hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
+
+## [Chef and Game with Sequence](https://www.codechef.comproblems/L56GAME)
+
+[Author - Ajish](https://github.com/ajish097)
+
+PROBLEM: Print the minimum size of the given array based on given condition in the problem
+
+SOLUTION:
+We can just add all the elements and check if the sum is even or odd. If it is even print 1 else 2.
+
+The complete code in c++ is given below
+
+<script src="https://gist.github.com/ajish097/55ee214cd0147f93d21073dfdaca9aa1.js"></script>
+
+<hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
