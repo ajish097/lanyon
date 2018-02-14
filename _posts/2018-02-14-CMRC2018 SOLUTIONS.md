@@ -14,23 +14,29 @@ PROBLEM: Given a string S, convert all the uppercase letters to lowercase and al
 SOLUTION:
 We check if the ith character is lowercase and if it is, we convert it to upper case as shown
 
+```C
 if (S[i] >= 'a' && S[i] <= 'z') {
   S[i] = toupper(S[i]);
 }
+```
 
 Here, we used a built in C function 'toupper' to convert the character to upper case. We can also do this
 manually by observing the ASCII values of upper and lower case characters. 
 ASCII value for 'A' is 65 and for 'a' is 97. The difference is 32. So if we subtract 32 from lowercase
 characters, we'll convert them to uppercase as show
 
+```C
 S[i] = S[i] - 32;
+```
 
 The same concept can be applied to convert uppercase characters to lowercase.
 
+```C
 if (S[i] >= 'A' && S[i] <= 'Z') {
   S[i] = tolower(S[i]);
   // or S[i] = S[i] + 32;
 }
+```
 
 The complete solution in C++ is given below
 
@@ -49,10 +55,14 @@ SOLUTION: Let us first understant why a naive solution might not work.
 We might be tempted to simply multiply all the numbers and then finally compute the modulo. i.e
 
 // let's assume the N positive integers are stored in array inp[], and mod stores 10^9+7;
+
+```C
 long long ans = 1, mod = 1000000007;
 for (int i = 0; i < N; i++) {
   ans = ans * inp[i];
-} 
+}
+```
+
 ans = ans % mod;
 
 However, looking at the constraints of the question confirms that this doesn't work.
@@ -68,10 +78,12 @@ The proof for this can be found here:
 So applying this concept on inp[],
   (inp[0] * inp[1] * inp[2] * ... * inp[N - 1]) % mod = (((inp[0] * inp[1]) % mod * inp[2]) % mod ... * inp[N - 1]) % mod
 
+```C
 long long ans = 1;
 for (int i = 0; i < N; i++) {
   ans = (ans * inp[i]) % mod;
 }
+```
 
 The complete solution in C++ is given below
 
