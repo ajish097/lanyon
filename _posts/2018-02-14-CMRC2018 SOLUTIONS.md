@@ -76,8 +76,10 @@ The proof for this can be found here:
   https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-multiplication
 
 So applying this concept on inp[],
-  (inp[0] * inp[1] * inp[2] * ... * inp[N - 1]) % mod = (((inp[0] * inp[1]) % mod * inp[2]) % mod ... * inp[N - 1]) % mod
 
+```
+(inp[0] * inp[1] * inp[2] * ... * inp[N - 1]) % mod = (((inp[0] * inp[1]) % mod * inp[2]) % mod ... * inp[N - 1]) % mod
+```
 ```C
 long long ans = 1;
 for (int i = 0; i < N; i++) {
