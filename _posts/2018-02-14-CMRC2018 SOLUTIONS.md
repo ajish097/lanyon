@@ -7,8 +7,6 @@ link: https://www.codechef.com/CMRC2018
 
 ## [Reverse Case](https://www.codechef.com/problems/REVCASE)
 
-[Author - Aadith Menon](https://github.com/adithm)
-
 PROBLEM: Given a string S, convert all the uppercase letters to lowercase and all lowercase letters to uppercase.
 
 SOLUTION:
@@ -46,8 +44,6 @@ The complete solution in C++ is given below
 <hr style="height:2px;border:none;color:#ccc;background-color:#ccc;" />
 
 ## [Large Products](https://www.codechef.com/problems/ANUPROD)
-
-[Author - Aadith Menon](https://github.com/adithm)
 
 PROBLEM: Given N positive integers, print the product of all the numbers Modulo 10^9+7.
 
